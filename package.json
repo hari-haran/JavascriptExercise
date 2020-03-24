@@ -1,0 +1,21 @@
+{
+  "name": "javascript-exercise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "author": "MOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:dev": "jest --watchAll --notify",
+    "test:dev-coverage": "jest --watchAll --coverage"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
